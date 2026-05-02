@@ -27,3 +27,4 @@ jobs:
     - name: Always logout 
       if: always()
       run: docker logout
+      run: echo "Process Ended"
